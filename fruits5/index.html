@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<main>
+    <div class="container">
+        <div class="container__img">
+            <img class="img" src="img/image.png" alt="fruits">
+        </div>
+        <div class="container__form">
+            <h3 class="form__text">Залиште свої контакти і ми зв’яжемося з вами</h3>
+            <form action="" class="form" id="add-form">
+                <div class="input-box">
+                    <label class="form__label">Ваше ім’я</label>
+                    <input data-required="true" class="form__input form__input-phone input-field" type="text" id="name">
+                    <div class="error"></div>
+                </div>
+                <div class="input-box">
+                    <label class="form__label">Номер телефону</label>
+                    <input data-required="true" class="form__input input-field" type="text" id="number">
+                    <div class="error"></div>
+                </div>
+                <button class="form__btn send-btn" type="submit">Надіслати</button>
+                <p id="text" class="form_p">Дякуємо за звернення, дуже <br> скоро ми зв’яжемося із вами!</p>
+            </form>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="footer_container">
+        <div class="contacts">
+            <p class="footer_contacts"> +440 67 420 19 09</p>
+            <p class="footer_contacts"> fruitworld@gmail.com</p>
+            <img class="social" src="img/інстаграм.svg">
+            <img class="social" src="img/фейсбук.svg">
+            <img class="social" src="img/телеграм.svg">
+        </div>
+        <div class="links__container">
+            <div class="links">
+                <nav>
+                    <a class="footer_links" href="#">Про нас</a>
+                    <a class="footer_links" href="#">Послуги компанії</a>
+                    <a class="footer_links" href="#">Товари компанії</a>
+                    <a class="footer_links" href="#">Статті</a>
+                </nav>
+            </div>
+            <div class="links2">
+                <nav>
+                    <a class="footer_links" href="#">Умови використання</a>
+                    <a class="footer_links" href="#">Політика конфіденційності</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
